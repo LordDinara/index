@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Мой первый сайт на html</title>
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+</head>
+<body>
+    <!-- Основной блок сайта -->
+    <div id="basic">
+     
+        <!-- Шапка сайта -->
+        <div id="head-site">
+            <a href="#"><img src="/images/logo.png" alt="Кофейня" title="Кофейня" /></a>
+            <img src="/images/telefon.png" alt="+7 (3537) 25-60-60" title="+7 (3537) 25-60-60" class="telefon" />
+        </div>
+         
+        <!-- Верхнее меню сайта -->
+        <div id="menu-top">
+        <div class="bg-1">
+            <ul>
+            <li><a href="#">О ДА, ВТОРАЯ СТРАНИЦА</a></li>
+           
+            <li class="none-bg"><a href="#">СЕГОДНЯ БУДЕТ ЧТО-ТО</a></li>
+            </ul>
+        </div>
+        <div class="bg-2"></div>
+        </div>
+         
+        <!-- Левое меню и Контент -->
+        <div id="content">
+         
+            <!-- Контент - правый блок -->
+        <div class="right">
+                <h1>Кофе Американо</h1>
+                <p>Драматизм, в первом приближении, начинает определенный синтез искусств. Целостность, на первый взгляд, изящно иллюстрирует феномер "психической мутации". Герменевтика, как бы это ни казалось парадоксальным, изящно продолжает онтогенез, таким образом, сходные законы контрастирующего развития характерны и для процессов в психике. </p>
+  
+                <p>Согласно теории "вчувствования", разработанной Теодором Липпсом, флегматик дает эйдос. Художественное восприятие образует социально-психологический фактор, таким образом, все перечисленные признаки архетипа и мифа подтверждают, что действие механизмов мифотворчества сродни механизмам художественно-продуктивного мышления. Пародия, согласно традиционным представлениям, изящно имитирует деструктивный горизонт ожидания.</p>
+                  
+                <img src="/images/img1.png" alt="" title="" style="margin-right:40px;" />
+                <img src="/images/img2.png" alt="" title="" style="margin-right:40px;" />
+                <img src="/images/img3.png" alt="" title="" />
+  
+                
+        </div>
+             
+        <!-- Левое меню - левый блок блок -->
+        <div class="left">
+            <div id="left-menu">
+                <div class="block-nad-menu"></div>
+                <div class="block-menu">
+                <ul>
+                
+                <li><a href="#">ДОПУСТИМ</a></li>
+                <li><a href="#">БУДЕТ </a></li>
+                <li class="none-bg"><a href="#">ТАК</a></li>
+                </ul>
+                </div>
+            <div class="block-pod-menu"></div>
+            </div>
+              
+        </div>
+          
+        </div>
+          
+    </div>
+</body>
+</html>
